@@ -15,13 +15,13 @@ n-4
 2 1
 1
 '''
-def fun(par:int): 
-    for par in range(par, 0, -1): # first number line in each row
-        for i in range(par,0,-1):
+def pattren_function(num:int): 
+    for num in range(num, 0, -1): # first number line in each row
+        for i in range(num,0,-1):
             print(i, end=" ")
         print()
        
 # call the function with an integer argument:
-fun(5)
+pattren_function(5)
 
 
