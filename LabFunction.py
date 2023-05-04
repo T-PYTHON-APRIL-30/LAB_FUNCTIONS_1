@@ -9,7 +9,7 @@ Create a function that takes 1 parameter of type int , then it prints out the re
 Document the newly created function. describe what it does, then print the documentation.'''
 
 def countDown(number_input:int):
-    
+    '''The function takes a number to reduce it to 1'''
     while True:
         for number in range(number_input,0,-1):
             print(number,end=" ")
@@ -20,5 +20,6 @@ def countDown(number_input:int):
         
 user_input= int(input("Pleasr enter the number: "))    
 countDown(user_input)
+#print("The documentation of this function: The function takes a number to reduce it to 1")
 
     
