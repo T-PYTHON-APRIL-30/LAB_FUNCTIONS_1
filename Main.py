@@ -13,7 +13,8 @@
 ### Document the newly created function. describe what it does, then print the documentation. 
 """
 
-def patter(Number:int):
+def patter(Number:int)->int:
+    """Prints the numbers from the entered number to 1"""
     for i in range(Number,0,-1):
         for j in range(i,0,-1):
             if j<= Number:
@@ -21,6 +22,9 @@ def patter(Number:int):
             else:
                 Number=-1
         print(" ")
+
+patter(5)
+print(patter.__doc__)
 
 """
 def patter(Number:int):
@@ -32,4 +36,4 @@ def patter(Number:int):
 """
 
 
-patter(5)
+
