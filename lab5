@@ -1,0 +1,27 @@
+
+# function takes integer par as input then print this pattern without returns:
+'''
+n-0 n-1 n-2 n-3 n-4
+n-1 n-2 n-3 n-4
+n-2 n-3 n-4
+n-3 n-4
+n-4
+'''
+# example:
+'''
+5 4 3 2 1
+4 3 2 1
+3 2 1
+2 1
+1
+'''
+def fun(par:int): 
+    for par in range(par, 0, -1): # first number line in each row
+        for i in range(par,0,-1):
+            print(i, end=" ")
+        print()
+       
+# call the function with an integer argument:
+fun(5)
+
+
