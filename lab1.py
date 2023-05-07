@@ -5,8 +5,8 @@ def reversepyramid(number:int):
                 print(number,end=" ")
                 number=number-1
             print(1)
-    
-    
+
+
 
 '''
 for i in range(5,0,-1):
@@ -17,6 +17,7 @@ for i in range(5,0,-1):
 print("p")
 '''
     
+print(reversepyramid.__doc__)
 
 number= int(input("please inter a number: "))
 reversepyramid(number)
