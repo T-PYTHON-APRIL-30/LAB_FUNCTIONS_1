@@ -20,6 +20,8 @@ def countDown(number_input:int):
         
 user_input= int(input("Pleasr enter the number: "))    
 countDown(user_input)
+print(countDown.__doc__)
+
 #print("The documentation of this function: The function takes a number to reduce it to 1")
 
     
