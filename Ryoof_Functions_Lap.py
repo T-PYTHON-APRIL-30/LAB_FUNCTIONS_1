@@ -25,4 +25,6 @@ def Descending_numbers(n:int) ->int:
 
 Descending_numbers(n)
 
+#reading the documentation
+print(Descending_numbers.__doc__)
 
