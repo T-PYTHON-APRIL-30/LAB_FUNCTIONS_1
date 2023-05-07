@@ -5,4 +5,6 @@ def print_pattern(num):
     for i in range(1, num+1):
         print ("1")
         for I in range(num +1):
-            print 
+            print (i)
+        for i in range(1, num+1)
+            print_pattern(5)
