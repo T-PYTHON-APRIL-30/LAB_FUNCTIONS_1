@@ -17,8 +17,9 @@ def desc_Numbers (number:int):
             i-=1
         print()
 
-
-user_input= int(input("Enter an integer number: "))
+print("")
+print(desc_Numbers.__doc__)
+user_input= int(input("\nEnter an integer number: "))
 desc_Numbers(user_input)
 
 
