@@ -1,5 +1,5 @@
 def p_number(numbers:int):
-    '''Document the newly created function. describe what it does, then print the documentation'''
+    '''this function get an input from user and print it like decrease sort then decrease a one number and repeat'''
     c_numbers = range(numbers,0,-1)
     for n in c_numbers :
         for a in range(numbers,0,-1):
@@ -15,4 +15,4 @@ def p_number(numbers:int):
            
 
 p_number(int(input("Enter a number! ")))
-
+print(p_number.__doc__)
