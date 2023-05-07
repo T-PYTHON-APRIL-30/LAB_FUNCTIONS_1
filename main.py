@@ -5,6 +5,9 @@ def series_number(num: int):
             print(j, end = " ")
         print("\n")
 
+
+print(series_number.__doc__)
+
 while True:
     user_input = input("Enter a number: ")
     if user_input.isdigit():
