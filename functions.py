@@ -5,3 +5,4 @@ def one_parameter (numb:int)->int:
             print(i,end ="")
         print()    
 one_parameter(5)
+print (one_parameter.__doc__)
