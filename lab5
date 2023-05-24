@@ -16,6 +16,7 @@ n-4
 1
 '''
 def pattren_function(num:int): 
+    '''function takes integer par as input then print this pattern without returns'''
     for num in range(num, 0, -1): # first number line in each row
         for i in range(num,0,-1):
             print(i, end=" ")
@@ -23,5 +24,8 @@ def pattren_function(num:int):
        
 # call the function with an integer argument:
 pattren_function(5)
+
+# print the documentation
+print('\n',pattren_function.__doc__)
 
 
